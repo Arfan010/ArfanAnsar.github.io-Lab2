@@ -1,6 +1,9 @@
 Lab 2
+
 Serial Communication with Proportional Controlled Motor
+
 By: Benny Cruz, Arfan Ansar, Noah Johnson
+
 The closed loop controller implemented in our design is a classic proportional control. The proportional controller takes the current position of the motor and finds the difference between this value and the value that the motor is set to rest at. This difference is multiplyed by a constant value (A proportion) that determines how much the motor should actuate or move to get to the desired final position.
 
 The desired response of a proportional controller is one without too much overshoot 1 and with a small settling time. 2
